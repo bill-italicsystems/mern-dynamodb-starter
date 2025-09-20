@@ -1,8 +1,5 @@
-// ======================================
-// Full Stack MERN (React + Node + DynamoDB) Coding Assignment
-// ======================================
+# Full Stack MERN (React + Node + DynamoDB) Coding Assignment
 
-/*
 🧪 PURPOSE:
 To assess how the candidate:
 - structures a small full-stack project
@@ -12,12 +9,9 @@ To assess how the candidate:
 - writes clean, readable, and testable code
 
 Candidates may use docs, StackOverflow, and any reference materials.
-*/
 
-// ======================================
-// 📄 ASSIGNMENT OVERVIEW
-// ======================================
-/*
+## 📄 ASSIGNMENT OVERVIEW
+
 Build a simple Task Manager application with the following features:
 
 1. Frontend (React):
@@ -46,12 +40,10 @@ Optional (Bonus):
 - Add pagination support
 - Add userId for multi-user support
 - Add environment-based config (dev/prod)
-*/
 
-// ======================================
-// 📂 FILE STRUCTURE (Suggested)
-// ======================================
-/*
+
+## 📂 FILE STRUCTURE (Suggested)
+```
 project-root/
 ├── client/ (React)
 │   ├── src/
@@ -70,12 +62,10 @@ project-root/
 ├── .env.template
 ├── README.md
 └── package.json
-*/
+```
 
-// ======================================
-// 🔧 TECHNICAL EXPECTATIONS
-// ======================================
-/*
+## 🔧 TECHNICAL EXPECTATIONS
+
 Frontend:
 - React functional components
 - useState, useEffect, and fetch or axios
@@ -92,26 +82,21 @@ Other:
 - Use .env for secrets (AWS keys if mocked/real used)
 - Provide sample test data or seeding logic if time permits
 - GitHub repo with meaningful commits is ideal
-*/
 
-// ======================================
-// 📝 SUBMISSION INSTRUCTIONS
-// ======================================
-/*
+
+## 📝 SUBMISSION INSTRUCTIONS
+
 - Fork or clone the provided repo
 - Complete the assignment within the given time (2–3 hours)
 - Push your code to a private repo (GitHub/GitLab)
 - Share the repo link + README with instructions to run locally
 - Optionally record a 5–10 min video explaining your approach
-*/
 
-// ======================================
-// ▶️ FULL SETUP & RUN INSTRUCTIONS
-// ======================================
-/*
+## ▶️ FULL SETUP & RUN INSTRUCTIONS
+
 1. Install dependencies:
-   cd client && npm install
-   cd ../server && npm install
+   `cd client && npm install`
+   `cd ../server && npm install`
 
 2. Setup environment variables:
    - Create a `.env` file in the root directory
@@ -119,22 +104,20 @@ Other:
    - Add your AWS credentials (or leave blank if mocking)
 
 3. Start backend:
-   cd server && npm start
+   `cd server && npm start`
 
 4. Start frontend:
-   cd client && npm start
+   `cd client && npm start`
 
 5. Open http://localhost:3000 in your browser to access the app.
 
 6. If using mock DynamoDB (optional):
    - Install Docker and run `dynamodb-local` container
    - Point your SDK config to the local endpoint
-*/
 
-// ======================================
-// 🧑‍⚖️ GRADING RUBRIC (Internal)
-// ======================================
-/*
+
+## 🧑‍⚖️ GRADING RUBRIC (Internal)
+
 1. Project structure & modularity – 20%
 2. Working REST API with basic CRUD – 25%
 3. Frontend interaction with API – 20%
