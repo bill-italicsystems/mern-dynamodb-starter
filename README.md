@@ -1,6 +1,6 @@
 # Full Stack MERN (React + Node + DynamoDB) Coding Assignment
 
-🧪 PURPOSE:
+## 🧪 PURPOSE:
 To assess how the candidate:
 - structures a small full-stack project
 - uses modern React and Node.js effectively
